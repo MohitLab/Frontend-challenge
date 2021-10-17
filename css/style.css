@@ -1,0 +1,203 @@
+body{
+  margin:0;
+  margin-top: 50px;
+  }
+
+p{
+    width: 65%;
+
+    line-height: 2;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-bottom: 45px;
+
+
+}
+
+h1{
+  position: relative;
+  left: 8rem;
+  color: white;
+  font-family: 'Merriweather', serif;
+  margin: 5px auto 45px;
+  font-size: 55px;
+}
+
+.cars{
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.carDimensions-img{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: 10em;
+}
+
+
+
+.cars{
+  float: left;
+}
+
+.sedans{
+  padding: 50px 0 50px;
+  background-color: #375e97;
+  width: 30rem;
+  margin: auto;
+  height: 500px;
+}
+
+
+
+.suvs{
+  padding: 50px 0 50px;
+  background-color: #fb6542;
+  height: 500px;
+  width: 30rem;
+  position: absolute;
+  left: 30em;
+  top: 0;
+
+}
+
+.luxury{
+  padding: 50px 0 50px;
+  background-color: #FFBB00;
+  height: 500px;
+  width: 30rem;
+  position: absolute;
+  left: 60rem;
+  top: 0;
+
+}
+
+.BUTTON_SEDAN {
+   background: #FFFFFF;
+   background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #375E97;
+   font-family: Brush Script MT;
+   font-size: 22px;
+   font-weight: 900;
+   padding: 12px;
+   margin-left: 9rem;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #FFFFFF;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_SEDAN:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.BUTTON_SUV {
+   background: #FFFFFF;
+   background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FB6542;
+   font-family: Brush Script MT;
+   font-size: 22px;
+   font-weight: 900;
+   padding: 12px;
+   margin-left: 9rem;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #FFFFFF;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_SUV:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.BUTTON_LUXURY {
+   background: #FFFFFF;
+   background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFBB00;
+   font-family: Brush Script MT;
+   font-size: 22px;
+   font-weight: 900;
+   padding: 12px;
+   margin-left: 9rem;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #FFFFFF;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_LUXURY:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
